@@ -28,7 +28,7 @@ if (isset($_POST['login'])) {
             } else {
                 echo "<script>
                     alert('Login sebagai User berhasil');
-                    window.location.href='dashboard.php';
+                    window.location.href='index.php';
                   </script>";
             }
             exit;
